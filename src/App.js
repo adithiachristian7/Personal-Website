@@ -1,36 +1,10 @@
 import "./App.css";
+import Header from "./components/header/index.js";
 
 function App() {
   return (
     <div>
-      <header>
-        <a href="#" className="logo">
-          Adithia<span>Christian</span>
-        </a>
-        <div className="bx bx-menu" id="menu-icon" />
-        <ul className="navlist">
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#portfolio">Project</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-        <div className="top-btnn">
-          <a href="#" className="h-btn">
-            Contact me
-          </a>
-        </div>
-      </header>
+      <Header />
       <section className="hero" id="home">
         <div className="main-content" data-aos="none">
           <h4>Hello,</h4>
@@ -87,7 +61,7 @@ function App() {
         </div>
         <div className="services-content" data-aos="zoom-in-up">
           <div className="box">
-            <img src="./img/s-1.svg" alt />
+            <img src="./img/s-1.svg" alt="" />
             <h3>UI/UX Design</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde
